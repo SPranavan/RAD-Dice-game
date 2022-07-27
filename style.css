@@ -1,0 +1,153 @@
+body{
+    background-color:#A9294F;
+    margin:0;
+    overflow:hidden;
+}
+
+#hd1{
+    padding-top:5px;
+    color:white;
+    text-align:center;
+    font-family: "Sofia", sans-serif;
+    font-size:45px;
+    background-color:#53B8BB;
+    margin:0;
+}
+
+#container1{
+    display:inline-block;
+    position:absolute;
+    left:200px;
+}
+
+#container2{
+    display:inline-block;
+    position:absolute;
+    right:200px;
+}
+
+img{
+    width:300px;
+    height:300px;
+}
+
+.para1{
+    text-align:center;
+    margin:0px;
+    position: relative;
+    bottom:25px;
+}
+
+#point1{
+    width:180px;
+    height:180px;
+    font-size:60px;
+    font-family: 'Black Ops One', cursive;
+    background-color:#FFF8D9;
+    position:absolute;
+    text-align:center;
+    left:500px;
+    vertical-align: middle;
+    line-height:180px;
+}
+
+#point2{
+    width:180px;
+    height:180px;
+    font-size:60px;
+    font-family: 'Black Ops One', cursive;
+    background-color:#FFF8D9;
+    position:absolute;
+    text-align:center;
+    right:500px;
+    top:372px;
+    vertical-align: middle;
+    line-height: 180px;
+}
+
+#dce1{
+    display:inline-block;
+    text-size-adjust:small;
+    width:250px;
+    height:250px;
+    background-color: #787A91;
+    position:relative;
+    left:380px;
+}
+
+#dce2{
+    display:inline-block;
+    width:250px;
+    height:250px;
+    background-color: #787A91;
+    position:absolute;
+    right:380px;
+}
+
+.dce_img{
+    margin:20px;
+    height: 220px;
+    width: 220px;
+}
+
+#pnts_container{
+    padding-top:22px;
+    padding-bottom:1px;
+    display:block;
+    background-color:#313552;
+}
+
+#plyr_container{
+    display:block;
+    background-color:#A9294F;
+}
+
+#bt_1{
+    position:absolute;
+    top:200px;
+    left:725px;
+    color:white;
+    border:0;
+    background-color:#046582;
+    font-size:26px;
+    padding:0 20px;
+    font-family: "Trirong", serif;
+}
+
+#bt_1:hover{
+    transform:scale(1.4);
+}
+
+.para1{
+    color:white;
+    font-size: 25px;
+    font-family: 'Bungee Shade', cursive;
+    background-color: #B93160;
+}
+
+#winner1{
+    font-family: 'Bungee Shade', cursive;
+    position:relative;
+    top:175px;
+    display:inline-block;
+    text-align:center;
+    width:180px;
+    background-color: #B93160;
+    color:white;
+    left:500px;
+    font-size:30px;
+}
+
+#winner2{
+    position:relative;
+    top:180px;
+    left:672px;
+    z-index:2;
+    display:inline-block;
+    width:180px;
+    color:white;
+    background-color: #B93160;
+    font-family: 'Bungee Shade', cursive;
+    text-align:center;
+    font-size:30px;
+}
